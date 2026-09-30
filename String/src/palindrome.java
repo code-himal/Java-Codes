@@ -1,7 +1,8 @@
 public class palindrome {
     public static void main(String[] args) {
-        String str = "madam";
-
+        String str = "madam mada";
+        str=str.toLowerCase();
+        str=str.trim();
         int start = 0;
         int end =str.length()-1;
 
@@ -23,3 +24,5 @@ public class palindrome {
         }
     }
 }
+
+
